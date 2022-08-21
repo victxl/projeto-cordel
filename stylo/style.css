@@ -54,16 +54,22 @@ section{
 section.normal{
     background-color: white;
     color: black;
+   
 }
 section.imagem{
     background-color: grey;
     color: white;
-
+    box-shadow: inset 2px 2px 13px 0px rgba(0, 0, 0, 0.336);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.26);
     display: inline-block; /* cria a caixa do tamanho do texto*/
     padding: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.336);
+   
 
 }
 section > p {
@@ -71,15 +77,19 @@ section > p {
 }
 section#img01{
 background-image: url('../imagens/joaninha.jpg');
+
 }
 section#img02{
 background-image: url('../imagens/carta.jpg');
+
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
